@@ -1,0 +1,33 @@
+
+	"checkCode 1.A ",
+	"true",			
+	//WRITE YOUR TESTS BELOW IN THE SAME FORMAT (USE COPY-AND-PASTE)
+
+	"checkCode 1000.A 45309 ",
+	"false",	
+
+	"checkCode 01000.A 45309",
+	"false",	
+	
+	"checkCode 900.A45309 ",
+	"false",	
+
+	"checkCode 900.A 453090 ",
+	"false",	
+
+	"checkCode 900,A 45309",
+	"false",	
+
+	"checkCode 900.A45309",
+	"false",	
+
+	"checkCode 0900.HI 45309",
+	"false",	
+
+	"checkCode 900.HI45309 ",
+	"false",	
+
+	"checkCode 900.HI 45309",
+	"true",	
+
+	//DO NOT CHANGE ANYTHING BELOW THIS LINE		
